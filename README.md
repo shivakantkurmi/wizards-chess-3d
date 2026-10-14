@@ -12,6 +12,8 @@ A playable, zero-dependency **3D Wizard's Chess** web application set inside a m
   <img src="Preview/Front-View.png" alt="Wizard's Chess 3D Sanctuary" width="100%" />
 </p>
 
+##for 2 player online mode : https://shivakantkurmi.github.io/2-player-chess/
+
 ---
 
 ## 📸 Visual Showcase & Perspectives
