@@ -1,4 +1,4 @@
-# 🏰 Wizard's Chess 3D — Gothic Cathedral Edition
+# 🏰 Wizard's Chess 3D — Gothic Cathedral Edition (Made Using Gemini Argon Model)
 
 ![Three.js](https://img.shields.io/badge/Three.js-r128-black?style=for-the-badge&logo=three.js)
 ![Chess.js](https://img.shields.io/badge/Chess.js-0.10.3-d4af37?style=for-the-badge)
