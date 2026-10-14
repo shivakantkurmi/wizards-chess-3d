@@ -8,6 +8,37 @@
 
 A playable, zero-dependency **3D Wizard's Chess** web application set inside a minimalist Gothic cathedral sanctuary. Built entirely using procedural 3D geometry, procedural surface textures, and synthesized Web Audio, this project brings **Carrara Ivory Marble** and **Volcanic Slate-Obsidian** armies to life with custom idle, movement, combat wind-up, and 3D stone-shatter physics animations.
 
+<p align="center">
+  <img src="Preview/Front-View.png" alt="Wizard's Chess 3D Sanctuary" width="100%" />
+</p>
+
+---
+
+## 📸 Visual Showcase & Perspectives
+
+Experience the atmospheric Gothic sanctuary and tactical chess gameplay from multiple cinematic camera perspectives:
+
+| 🏰 **White Army View (Front)** | 🏛️ **Cathedral Altar (Side View)** | 🗺️ **Tactical Bird's-Eye (Top-Down)** |
+| :---: | :---: | :---: |
+| <a href="Preview/Front-View.png"><img src="Preview/Front-View.png" alt="Front View - White Army Perspective" width="100%" /></a> | <a href="Preview/Side%20View.png"><img src="Preview/Side%20View.png" alt="Side View - Cathedral Altar & Architecture" width="100%" /></a> | <a href="Preview/Top-View.png"><img src="Preview/Top-View.png" alt="Top-Down View - Tactical Board Layout" width="100%" /></a> |
+| *Command perspective facing the Obsidian army with Material HUD* | *Octagonal stepped dais, clustered Gothic piers & lancet windows* | *Clean 64-block tactical board with brass coordinates (A–H, 1–8)* |
+
+<details>
+<summary><b>🔍 Click to expand full-resolution previews</b></summary>
+
+<br>
+
+#### 🏰 1. Front View — White Army Perspective & Sanctuary
+![Front View](Preview/Front-View.png)
+
+#### 🏛️ 2. Side View — Cathedral Architecture & Altar Dais
+![Cathedral Side View](Preview/Side%20View.png)
+
+#### 🗺️ 3. Tactical Top-Down View — 64-Block Tactical Board
+![Tactical Top-Down View](Preview/Top-View.png)
+
+</details>
+
 ---
 
 ## ✨ Key Features
@@ -85,10 +116,10 @@ Because the entire application is self-contained with zero build steps required,
 ### Option 1: Direct Launch
 1. Clone the repository:
    ~~~bash
-   git clone https://github.com/your-username/wizards-chess-3d.git
+   git clone https://github.com/shivakantkurmi/wizards-chess-3d.git
    cd wizards-chess-3d
    ~~~
-2. Double-click `index.html` to open it directly in Chrome, Firefox, Edge, or Safari.
+2. Double-click `index.html` (or `Wizard's Chess 3D.html`) to open it directly in Chrome, Firefox, Edge, or Safari.
 
 ### Option 2: Run with a Local Development Server (Recommended)
 Using a local server ensures optimal WebGL and Web Audio API behavior:
@@ -133,8 +164,13 @@ Using a local server ensures optimal WebGL and Web Audio API behavior:
 
 ~~~text
 wizards-chess-3d/
-├── index.html       # Complete self-contained 3D web application (HTML, CSS, Three.js, Chess.js, Tone.js)
-└── README.md        # Project documentation
+├── index.html              # Main application entry point (for GitHub Pages & direct launch)
+├── Wizard's Chess 3D.html  # Standalone playable Gothic 3D chess application
+├── Preview/                # Visual previews & gameplay screenshots
+│   ├── Front-View.png      # White army perspective & HUD
+│   ├── Side View.png       # Cathedral altar dais & architecture
+│   └── Top-View.png        # Tactical bird's-eye 64-block view
+└── README.md               # Project documentation & guide
 ~~~
 
 ---
@@ -145,7 +181,7 @@ wizards-chess-3d/
 2. Go to **Settings** → **Pages** in your repository.
 3. Under **Build and deployment**, select **Deploy from a branch**.
 4. Choose the `main` (or `master`) branch and `/ (root)` folder, then click **Save**.
-5. Your playable 3D Wizard's Chess sanctuary will be live at `https://your-username.github.io/wizards-chess-3d/`.
+5. Your playable 3D Wizard's Chess sanctuary will be live at `https://shivakantkurmi.github.io/wizards-chess-3d/`.
 
 ---
 
